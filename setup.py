@@ -8,7 +8,7 @@ import os
 import ConfigParser
 
 MODULE = 'account_invoice_visible_payments'
-PREFIX = 'trytonzz'
+PREFIX = 'trytonspain'
 MODULE2PREFIX = {}
 
 
@@ -45,7 +45,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url='https://bitbucket.org/zikzakmedia/trytond-%s' % MODULE,
+    download_url='https://bitbucket.org/trytonspain/trytond-%s' % MODULE,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
         'trytond.modules.%s' % MODULE,

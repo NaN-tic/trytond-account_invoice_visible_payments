@@ -13,10 +13,6 @@ class AccountInvoiceVisiblePaymentsTestCase(unittest.TestCase):
     def setUp(self):
         trytond.tests.test_tryton.install_module('account_invoice_visible_payments')
 
-    def test0005views(self):
-        'Test views'
-        test_view('account_invoice_visible_payments')
-
     def test0006depends(self):
         'Test depends'
         test_depends()
